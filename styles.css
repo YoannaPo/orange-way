@@ -1,0 +1,106 @@
+
+* {
+    font-family: 'Space Mono', monospace;
+    padding-left: 5px;
+}
+
+.nav-list, .section.list, .header-title, .section-heading, .article-heading, .section-heading-contact {
+    font-family: 'Radley', serif;
+    margin: 0;
+}
+
+.header-wrap {
+    background-image: url("../img/banner.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    height: 80vh;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 18px; 
+}
+
+.navbar-nav li {
+      margin: 25px 20px 25px 20px;
+      font-size: 16px;
+      
+      text-decoration: none;
+}
+
+.navbar-nav li a {
+    color: #000000;
+}
+
+a, a:hoover {
+    text-decoration: none;
+}
+
+.header-title {
+    font-size: 200px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.header-tagline {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 10px;
+    text-transform: lowercase;
+}
+
+.section-heading {
+    font-size: 40px;
+    color: #000000;
+    line-height: 1;
+}
+
+.section-text {
+    font-size: 14px;
+    color: #000000;
+}
+
+.section-list {
+    font-size: 15px;
+    color: #000000;
+    list-style-type: none;
+}
+
+.section-link {
+    font-size: 15px;
+    color: #F04D23;
+}
+
+.section-link-insta {
+    font-size: 40px;
+    color: #F04D23;
+}
+
+.article-heading {
+    font-size: 24px;
+    color: #F04D23;
+    line-height: 1;
+    margin-top: 20px;
+}
+
+.section-heading-contact {
+    font-size: 100px;
+    color: #000000;
+}
+
+.section-text-contact {
+    font-size: 18px;
+    color: #000000;
+}
+
+footer {
+    background: #F2F2F2;
+}
