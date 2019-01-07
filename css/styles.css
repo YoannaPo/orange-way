@@ -2,12 +2,18 @@
 * {
     font-family: 'Space Mono', monospace;
     padding-left: 5px;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
 }
 
 .nav-list, .section.list, .header-title, .section-heading, .article-heading, .section-heading-contact {
     font-family: 'Radley', serif;
-    margin: 0;
 }
+
+
 
 .header-wrap {
     background-image: url("../img/banner.jpg");
@@ -18,40 +24,63 @@
     height: 80vh;
     margin-bottom: 50px;
     text-align: center;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
+
+/*remember to lift nav menu */
+
+
+.nav-list {
+    
+    padding-top: 2px;
+}
+
 
 .navbar-nav {
     list-style-type: none;
-    padding: 0;
     margin: 0;
     line-height: 18px; 
 }
 
 .navbar-nav li {
-      margin: 25px 20px 25px 20px;
+      margin: 0px 12px 0px 12px;
+      padding-top: 10px;
+      padding-bottom: 50px;
       font-size: 16px;
-      
-      text-decoration: none;
+      display: inline-block;
+
 }
 
 .navbar-nav li a {
     color: #000000;
+    text-decoration: none;
+    padding: 1px;
+    
 }
 
 a, a:hoover {
     text-decoration: none;
 }
 
+
+
+.header-text {
+    color: #ffffff;
+}
+
 .header-title {
     font-size: 200px;
-    color: #ffffff;
     letter-spacing: 1px;
     line-height: 1;
 }
 
 .header-tagline {
     font-size: 18px;
-    color: #ffffff;
     font-weight: 400;
     margin-top: 10px;
     text-transform: lowercase;
