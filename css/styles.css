@@ -67,7 +67,9 @@ a, a:hoover {
     text-decoration: none;
 }
 
-
+img {
+    max-width: 100%;
+}
 
 .header-text {
     color: #ffffff;
