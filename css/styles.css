@@ -32,12 +32,13 @@ h1, h2, h3 {
 
 }
 
-/*remember to lift nav menu */
-
 
 .nav-list {
     
     padding-top: 2px;
+    position: fixed;
+    top: 25px;
+    z-index: 1;
 }
 
 
@@ -48,11 +49,11 @@ h1, h2, h3 {
 }
 
 .navbar-nav li {
-      margin: 0px 12px 0px 12px;
-      padding-top: 10px;
-      padding-bottom: 50px;
-      font-size: 16px;
-      display: inline-block;
+    margin: 0px 12px 0px 12px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    ont-size: 16px;
+    display: inline-block;
 
 }
 
