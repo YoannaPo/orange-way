@@ -29,6 +29,7 @@ h1, h2, h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
 
@@ -90,12 +91,13 @@ img {
 }
 
 .social-icons {
-    position: absolute;
+    position: relative;
     left: 5px;
     z-index: 1;   
 }
 
 .social-nav {
+    position: absolute;
     list-style-type: none;
 }
 
@@ -103,6 +105,26 @@ img {
     height: 40px;
     padding-left: 0;
     padding-right: 5px;
+}
+
+.layout-info {
+    position: absolute;
+    color: #ffffff;
+    font-size: 12px;
+    bottom: 40px;
+    left: 40px;
+}
+.author-set {
+    position: relative;
+}
+
+.author-set::before {
+    content: url("../img/cross.svg");
+    position: absolute;
+    width: 200px;
+    z-index: -1;
+    left: -95px;
+    top: -45px;
 }
 
 .section-heading {
@@ -139,6 +161,18 @@ img {
     margin-top: 20px;
 }
 
+.wave-set {
+    position: relative;
+}
+
+.wave-set::before {
+    content: url("../img/line.svg");
+    position: absolute;
+    width: 900px;
+    left: 90px;
+    bottom: -60px;
+    z-index: -1;
+}
 .section-heading-contact {
     font-size: 100px;
     color: #000000;
