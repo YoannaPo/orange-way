@@ -53,7 +53,7 @@ h1, h2, h3 {
     margin: 0px 12px 0px 12px;
     padding-top: 10px;
     padding-bottom: 50px;
-    ont-size: 16px;
+    font-size: 16px;
     display: inline-block;
 
 }
@@ -61,8 +61,7 @@ h1, h2, h3 {
 .navbar-nav li a {
     color: #000000;
     text-decoration: none;
-    padding: 1px;
-    
+    padding: 1px;   
 }
 
 a, a:hoover {
@@ -92,19 +91,25 @@ img {
 
 .social-icons {
     position: relative;
+    display: flex;
     left: 5px;
-    z-index: 1;   
+    bottom: 8vh;
+    z-index: 1; 
 }
 
 .social-nav {
-    position: absolute;
+    position: fixed;
     list-style-type: none;
+
 }
 
 .social-nav img {
     height: 40px;
     padding-left: 0;
     padding-right: 5px;
+    max-width: 100%;
+    
+    
 }
 
 .layout-info {
@@ -161,6 +166,10 @@ img {
     margin-top: 20px;
 }
 
+.contact-info {
+    text-align: center;
+}
+
 .wave-set {
     position: relative;
 }
@@ -176,6 +185,8 @@ img {
 .section-heading-contact {
     font-size: 100px;
     color: #000000;
+    text-align: center;
+    line-height: 100px;
 }
 
 .section-text-contact {
@@ -183,6 +194,23 @@ img {
     color: #000000;
 }
 
+.contact-link {
+    color: #000000;
+    text-decoration: none;
+}
+
 footer {
     background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-link {
+    color: #F04D23;
 }
