@@ -89,7 +89,7 @@ img {
 .social-icons {
     position: relative;
     display: flex;
-    left: 5px;
+    left: 0;
     bottom: 8vh;
     z-index: 1; 
 }
@@ -133,6 +133,8 @@ img {
     font-size: 40px;
     color: #000000;
     line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .section-text {
@@ -144,6 +146,14 @@ img {
     font-size: 15px;
     color: #000000;
     list-style-type: none;
+    
+
+}
+
+.section-list li {
+    border-bottom: 1px solid #eeeeee;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section-link {
