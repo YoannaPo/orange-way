@@ -13,8 +13,6 @@ h1, h2, h3 {
     font-family: 'Radley', serif;
 }
 
-
-
 .header-wrap {
     background-image: url("../img/banner.jpg");
     background-attachment: fixed;
@@ -87,23 +85,22 @@ img {
 }
 
 .social-icons {
-    position: relative;
+    position: relative; 
     display: flex;
-    left: 0;
+    left: 5px;
     bottom: 8vh;
     z-index: 1; 
 }
 
 .social-nav {
-    position: fixed;
+    position: fixed; /*sticky menu*/
     list-style-type: none;
 }
 
 .social-nav img {
     height: 40px;
     padding-left: 0;
-    padding-right: 5px;
-    max-width: 100%;    
+    padding-right: 5px;  
 }
 
 .layout-info {
@@ -146,8 +143,7 @@ img {
     font-size: 15px;
     color: #000000;
     list-style-type: none;
-    
-
+    margin-bottom: 10px;
 }
 
 .section-list li {
@@ -166,11 +162,19 @@ img {
     color: #F04D23;
 }
 
+.insta-photos {
+    margin-bottom: 10px;
+}
+
 .article-heading {
     font-size: 24px;
-    color: #F04D23;
     line-height: 1;
     margin-top: 20px;
+}
+
+.article-heading a {
+    text-decoration: none;
+    color: #f04d23;
 }
 
 .contact-info {
