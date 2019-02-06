@@ -172,7 +172,7 @@ img {
     margin-top: 20px;
 }
 
-.article-heading a {
+h3.article-heading a {
     text-decoration: none;
     color: #f04d23;
 }
