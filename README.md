@@ -17,7 +17,10 @@ Motivation: learning more, improve the quality of code.
 * Bootstrap - version 4.1.3
 
 ## Status
-Project is: an_early_stage_, _in progress_
+Project is: _finished_
+
+## Live
+https://yoannapo.github.io/orange-way/
 
 ## Sources
 Examples of challenge tasks and many helping materials you can find here [@theawwwesomesorg](http://theawwwesomes.org/)
