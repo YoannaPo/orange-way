@@ -17,7 +17,7 @@ Motivation: learning more, improve the quality of code.
 * Bootstrap - version 4.1.3
 
 ## Status
-Project is: _finished_
+Project is:  _finished_
 
 ## Live
 https://yoannapo.github.io/orange-way/
